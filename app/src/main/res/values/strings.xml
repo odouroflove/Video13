@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Video13</string>
+    <string name="my_name">Trần Nam Giang</string>
+    <string name="gt">Giới tính</string>
+    <string name="gt_nam">Nam</string>
+    <string name="gt_nu">Nữ</string>
+    <string name="st">Sở thích</string>
+    <string name="st1_yeu">Yêu màu tím</string>
+    <string name="st2_thich">Thích màu hồng</string>
+    <string name="st3_hay">Hay mơ mộng</string>
+    <string name="st4_song">Sống nội tâm</string>
+    <string name="st5_luon">Luôn khóc thầm</string>
+</resources>

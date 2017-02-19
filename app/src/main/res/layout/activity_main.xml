@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:background="@color/colorBackground"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_myname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/my_name"
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gt"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:checked="true"
+            android:id="@+id/rbtn_nam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gt_nam" />
+
+        <RadioButton
+            android:id="@+id/rbtn_nu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gt_nu" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/st"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/chbx1_yeu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/st1_yeu" />
+
+    <CheckBox
+        android:id="@+id/chbx2_thich"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/st2_thich" />
+
+    <CheckBox
+        android:id="@+id/chbx3_hay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/st3_hay" />
+
+    <CheckBox
+        android:id="@+id/chbx4_song"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/st4_song" />
+
+    <CheckBox
+        android:id="@+id/chbx5_luon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/st5_luon" />
+
+    <ImageButton
+        android:id="@+id/ibtn_oki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_launcher" />
+</LinearLayout>
